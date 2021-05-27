@@ -41,7 +41,7 @@ test:
 
 about:
   home: https://rinterface.github.io/tablerDash/, https://github.com/RinteRface/tablerDash/
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: '''R'' interface to the ''Tabler'' HTML template. See more here <https://tabler.io>.  ''tablerDash''
     is a light ''Bootstrap 4'' dashboard template. There are different  layouts available
     such as a one page dashboard or a multi page template, where the navigation menu
