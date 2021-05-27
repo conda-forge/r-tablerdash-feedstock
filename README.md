@@ -3,7 +3,7 @@ About r-tablerdash
 
 Home: https://rinterface.github.io/tablerDash/, https://github.com/RinteRface/tablerDash/
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tablerdash-feedstock/blob/master/LICENSE.txt)
 
