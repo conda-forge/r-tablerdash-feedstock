@@ -1,11 +1,11 @@
-About r-tablerdash
-==================
+About r-tablerdash-feedstock
+============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tablerdash-feedstock/blob/main/LICENSE.txt)
 
 Home: https://rinterface.github.io/tablerDash/, https://github.com/RinteRface/tablerDash/
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-tablerdash-feedstock/blob/main/LICENSE.txt)
 
 Summary: 'R' interface to the 'Tabler' HTML template. See more here <https://tabler.io>.  'tablerDash' is a light 'Bootstrap 4' dashboard template. There are different  layouts available such as a one page dashboard or a multi page template, where the navigation menu is contained in the navigation bar. A fancy example is available at <https://dgranjon.shinyapps.io/shinyMons/>.
 
