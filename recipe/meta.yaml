@@ -1,4 +1,4 @@
-{% set version = '0.1.0' %}
+{% set version = "0.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/tablerDash_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/tablerDash/tablerDash_{{ version }}.tar.gz
-  sha256: b5ce8af4186e55cf086cdb854dbc4eb90c376cc0d6ab22464ec6b4a33a35d7d6
+  sha256: 7f3167ab36858e5c392f86dfed780175730b01520ba89993eca630dea76b5132
 
 build:
-  number: 5
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
@@ -40,10 +40,8 @@ test:
 about:
   home: https://rinterface.github.io/tablerDash/, https://github.com/RinteRface/tablerDash/
   license: GPL-2.0-or-later
-  summary: '''R'' interface to the ''Tabler'' HTML template. See more here <https://tabler.io>.  ''tablerDash''
-    is a light ''Bootstrap 4'' dashboard template. There are different  layouts available
-    such as a one page dashboard or a multi page template, where the navigation menu
-    is contained in the navigation bar. A fancy example is available at <https://dgranjon.shinyapps.io/shinyMons/>.'
+  summary: '''R'' interface to the ''Tabler'' HTML template. See more here <https://tabler.io>.  ''tablerDash'' is a light ''Bootstrap 4'' dashboard template. There are different  layouts available such as a one page dashboard or a multi page template, where the navigation menu is contained in the navigation bar. A fancy
+    example is available at <https://dgranjon.shinyapps.io/shinyMons/>.'
   license_family: GPL3
   license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2'
 
